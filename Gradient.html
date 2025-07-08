@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gradient Wallpaper</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background-color: black;
+    }
+
+    #gradient-canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
+
+  <!-- ✅ Use type="module" for ES6 imports -->
+  <script type="module">
+    import { Gradient } from './Gradient.js';
+
+    const gradient = new Gradient();
+    gradient.initGradient('#gradient-canvas');
+  </script>
+</body>
+</html>
