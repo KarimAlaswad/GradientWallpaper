@@ -19,4 +19,4 @@ In line (35-37) in Gradient.js, you can change the hue, saturation and lightness
 To change the colorChangeInterval to change the speed of the color swap, in line 308 change e(this, "colorChangeInterval", 3000), // 3 seconds per color
 
 # Todo  
-I might try to implement these configurations and more to be done through Lively GUI without changing it through the file.
+I might try to implement these configurations to be done through Lively GUI without changing it through the file.
