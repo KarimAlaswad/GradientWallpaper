@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/be3f61f9-7198-4da1-b0db-3061badfd952
 # Configuration
 In line (35-37) in Gradient.js, you can change the hue, saturation and lightness to include even wider color space but it tends to be more paler, this file ships with 100% saturation by default.  
 
-To change the colorChangeInterval to change the speed of the color swap, in line 308 change e(this, "colorChangeInterval", 3000), // 3 seconds per color
+To change the speed of the color swap, in line 308 change e(this, "colorChangeInterval", 3000), // 3 seconds per color
 
 # Todo  
 I might try to implement these configurations to be done through Lively GUI without changing it through the file.
